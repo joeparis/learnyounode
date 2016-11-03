@@ -4,7 +4,6 @@ var path = require('path');
 var dir = process.argv[2];
 var ext = '.' + process.argv[3];
 
-
 fs.readdir(dir, (error, files) => {
     if(error)
         throw error;
